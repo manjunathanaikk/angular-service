@@ -1,0 +1,13 @@
+<div>
+  <span>Username: {{ user?.name }}</span
+  >&nbsp; <span>Username: {{ user?.status }}</span
+  >&nbsp;<br />
+  <span>
+    <button class="btn btn-sm btn-primary" (click)="onUpdateStatus('active')">
+      Set Active</button
+    >&nbsp;
+    <button class="btn btn-sm btn-danger" (click)="onUpdateStatus('inactive')">
+      Set In-Active
+    </button>
+  </span>
+</div>
